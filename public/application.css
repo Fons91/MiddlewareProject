@@ -1,0 +1,31 @@
+body {
+  font: 13px sans-serif;
+}
+
+text {
+      font: 13px sans-serif;
+
+}
+
+#viewsvg{
+  margin:auto;
+  display: block;
+
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.x.axis path {
+  display: none;
+}
+
+.line {
+  fill: none;
+  stroke: steelblue;
+  stroke-width: 1.5px;
+}
